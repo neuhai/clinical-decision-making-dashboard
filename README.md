@@ -33,33 +33,25 @@ VITE_API_BASE_URL=xxx
 ### Backend Setup
 
 ```bash
-# Navigate to backend directory
 cd backend
-
-# Create virtual environment
 python -m venv venv
 
 # Activate virtual environment
 source venv/bin/activate  # Unix/macOS
 .\venv\Scripts\activate   # Windows
 
-# Install dependencies
 pip install -r requirements.txt
 
-# Start the Flask server
 python -m app.run
 ```
 
 ### Frontend Setup
 
 ```bash
-# Navigate to frontend directory
 cd frontend
 
-# Install dependencies
 npm install
 
-# Start development server
 npm run dev
 ```
 
