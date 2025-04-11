@@ -1,0 +1,395 @@
+[
+    {
+        "id": "1",
+        "name": "Emily Johnson",
+        "age": 52,
+        "gender": "Female",
+        "cancerType": "Breast Cancer",
+        "stage": "IV",
+        "treatment": "Radiation Therapy",
+        "hospitalizations": [
+          { "date": "07/15/2024", "reason": "Arrhythmia Episode" }
+        ],
+        "riskLevel": "High",
+        "wearableSensorData": {
+          "heartRate": {
+            "24hrs": [72, 75, 78, 80, 85, 82, 79, 76, 74, 72],
+            "10days": [
+              { "date": "2025-04-01", "value": 76 },
+              { "date": "2025-03-31", "value": 78 },
+              { "date": "2025-03-30", "value": 80 },
+              { "date": "2025-03-29", "value": 82 },
+              { "date": "2025-01-10", "value": 79 },
+              { "date": "2025-01-09", "value": 77 },
+              { "date": "2025-01-08", "value": 75 },
+              { "date": "2025-01-07", "value": 73 },
+              { "date": "2025-01-06", "value": 72 },
+              { "date": "2025-01-05", "value": 70 }
+            ]
+          },
+          "respiration": {
+            "24hrs": [16, 17, 18, 17, 16, 18, 19, 17, 16],
+            "10days": [
+              { "date": "2024-01-10", "value": 17 },
+              { "date": "2024-01-09", "value": 18 },
+              { "date": "2024-01-08", "value": 17 },
+              { "date": "2024-01-07", "value": 16 },
+              { "date": "2024-01-06", "value": 17 },
+              { "date": "2024-01-05", "value": 18 },
+              { "date": "2024-01-04", "value": 19 },
+              { "date": "2024-01-03", "value": 18 },
+              { "date": "2024-01-02", "value": 17 },
+              { "date": "2024-01-01", "value": 16 }
+            ]
+          },
+          "spo2": {
+            "24hrs": [98, 97, 96, 97, 98, 99, 97, 96, 98],
+            "10days": [
+              { "date": "2024-01-10", "value": 98 },
+              { "date": "2024-01-09", "value": 99 },
+              { "date": "2024-01-08", "value": 98 },
+              { "date": "2024-01-07", "value": 97 },
+              { "date": "2024-01-06", "value": 97 },
+              { "date": "2024-01-05", "value": 98 },
+              { "date": "2024-01-04", "value": 99 },
+              { "date": "2024-01-03", "value": 97 },
+              { "date": "2024-01-02", "value": 96 },
+              { "date": "2024-01-01", "value": 95 }
+            ]
+          },
+          "skinTemperature": {
+            "24hrs": [36.5, 36.6, 36.7, 36.8, 36.9, 37.0, 36.7, 36.6],
+            "10days": [
+              { "date": "2024-01-10", "value": 36.7 },
+              { "date": "2024-01-09", "value": 36.8 },
+              { "date": "2024-01-08", "value": 36.6 },
+              { "date": "2024-01-07", "value": 36.7 },
+              { "date": "2024-01-06", "value": 36.8 },
+              { "date": "2024-01-05", "value": 36.7 },
+              { "date": "2024-01-04", "value": 36.6 },
+              { "date": "2024-01-03", "value": 36.5 },
+              { "date": "2024-01-02", "value": 36.6 },
+              { "date": "2024-01-01", "value": 36.7 }
+            ]
+          }
+        },
+        "aiRiskPrediction": {
+            "lastUpdated": "01/15/2025",
+            "riskScore": 70,
+            "featureImportance": [
+                { "label": "Heart Rate", "value": 30 },
+                { "label": "Respiration Rate", "value": 25 },
+                { "label": "SpO2", "value": 20 },
+                { "label": "Skin Temperature", "value": 15 },
+                { "label": "Chest Discomfort", "value": 10 }
+            ],
+            "historicalData": [
+                { "date": "2024-12-16", "value": 72 },
+                { "date": "2024-12-17", "value": 73 },
+                { "date": "2024-12-18", "value": 74 },
+                { "date": "2024-12-19", "value": 76 },
+                { "date": "2024-12-20", "value": 75 },
+                { "date": "2024-12-21", "value": 77 },
+                { "date": "2024-12-22", "value": 78 },
+                { "date": "2024-12-23", "value": 77 },
+                { "date": "2024-12-24", "value": 79 },
+                { "date": "2024-12-25", "value": 78 },
+                { "date": "2024-12-26", "value": 76 },
+                { "date": "2024-12-27", "value": 77 },
+                { "date": "2024-12-28", "value": 78 },
+                { "date": "2024-12-29", "value": 79 },
+                { "date": "2024-12-30", "value": 80 },
+                { "date": "2024-12-31", "value": 79 },
+                { "date": "2025-01-01", "value": 78 },
+                { "date": "2025-01-02", "value": 77 },
+                { "date": "2025-01-03", "value": 75 },
+                { "date": "2025-01-04", "value": 76 },
+                { "date": "2025-01-05", "value": 74 },
+                { "date": "2025-01-06", "value": 73 },
+                { "date": "2025-01-07", "value": 72 },
+                { "date": "2025-01-08", "value": 73 },
+                { "date": "2025-01-09", "value": 74 },
+                { "date": "2025-01-10", "value": 73 },
+                { "date": "2025-01-11", "value": 74 },
+                { "date": "2025-01-12", "value": 75 },
+                { "date": "2025-01-13", "value": 74 },
+                { "date": "2025-01-14", "value": 75 }
+            ]
+        },
+            "conversationLog": {
+              "date": "01/14/2025",
+              "conversations": {
+                "Shortness of Breath": [
+                  {
+                    "type": "bot",
+                    "text": "Are you experiencing shortness of breath?",
+                    "icon": "robotIcon"
+                  },
+                  {
+                    "type": "patient",
+                    "text": "No, I haven't felt shortness of breath recently.",
+                    "icon": "userIcon",
+                    "experienced": false
+                  },
+                  {
+                    "type": "bot",
+                    "text": "Thank you for confirming. We'll keep monitoring.",
+                    "icon": "robotIcon"
+                  }
+                ],
+                "Palpitation": [
+                  {
+                    "type": "bot",
+                    "text": "Are you experiencing palpitations?",
+                    "icon": "robotIcon"
+                  },
+                  {
+                    "type": "patient",
+                    "text": "Yes, I felt my heart racing a few times today.",
+                    "icon": "userIcon",
+                    "experienced": true
+                  },
+                  {
+                    "type": "bot",
+                    "text": "Did you feel dizzy or lightheaded during these episodes?",
+                    "icon": "robotIcon"
+                  },
+                  {
+                    "type": "patient",
+                    "text": "A bit, but nothing severe.",
+                    "icon": "userIcon",
+                    "experienced": true
+                  },
+                  {
+                    "type": "bot",
+                    "text": "We will keep tracking this and inform your healthcare provider.",
+                    "icon": "robotIcon"
+                  }
+                ],
+                "Chest Discomfort": [
+                  {
+                    "type": "bot",
+                    "text": "Are you experiencing any chest discomfort?",
+                    "icon": "robotIcon"
+                  },
+                  {
+                    "type": "patient",
+                    "text": "No, I haven't felt any chest discomfort.",
+                    "icon": "userIcon",
+                    "experienced": false
+                  },
+                  {
+                    "type": "bot",
+                    "text": "Thank you for confirming. We'll keep monitoring.",
+                    "icon": "robotIcon"
+                  }
+                ],
+                "Swelling": [
+                  {
+                    "type": "bot",
+                    "text": "Are you experiencing any swelling?",
+                    "icon": "robotIcon"
+                  },
+                  {
+                    "type": "patient",
+                    "text": "No, I haven't noticed any swelling.",
+                    "icon": "userIcon",
+                    "experienced": false
+                  },
+                  {
+                    "type": "bot",
+                    "text": "Thank you for letting us know. We'll keep an eye on it.",
+                    "icon": "robotIcon"
+                  }
+                ],
+                "Fatigue": [
+                  {
+                    "type": "bot",
+                    "text": "Are you feeling more fatigued than usual?",
+                    "icon": "robotIcon"
+                  },
+                  {
+                    "type": "patient",
+                    "text": "No, my energy levels feel normal today.",
+                    "icon": "userIcon",
+                    "experienced": false
+                  },
+                  {
+                    "type": "bot",
+                    "text": "Good to hear. Let us know if anything changes.",
+                    "icon": "robotIcon"
+                  }
+                ],
+                "Syncope": [
+                  {
+                    "type": "bot",
+                    "text": "Have you experienced any episodes of fainting?",
+                    "icon": "robotIcon"
+                  },
+                  {
+                    "type": "patient",
+                    "text": "Yes, I felt like I was going to faint yesterday.",
+                    "icon": "userIcon",
+                    "experienced": true
+                  },
+                  {
+                    "type": "bot",
+                    "text": "Could you describe what you were doing at the time?",
+                    "icon": "robotIcon"
+                  },
+                  {
+                    "type": "patient",
+                    "text": "I was standing up after sitting for a while.",
+                    "icon": "userIcon"
+                  },
+                  {
+                    "type": "bot",
+                    "text": "Thank you for sharing. We'll keep an eye on this.",
+                    "icon": "robotIcon"
+                  }
+                ]
+              }
+            }
+        },
+          
+      
+    {
+      "id": "2",
+      "name": "Michael Chen",
+      "age": 47,
+      "gender": "Male",
+      "cancerType": "Lymphoma",
+      "stage": "IIIA",
+      "treatment": "Immunotherapy",
+      "hospitalizations": [
+        { "date": "07/20/2024", "reason": "Cardiologist Referral for EF Monitoring" },
+        { "date": "08/29/2024", "reason": "Arrhythmia Episode" },
+        { "date": "04/20/2024", "reason": "Cardiotoxicity Symptoms (Dyspnea, Edema)" },
+        { "date": "01/19/2024", "reason": "Echocardiogram (EF drop detected)" },
+        { "date": "10/23/2024", "reason": "Cardiologist Referral for EF Monitoring" }
+      ],
+      "riskLevel": "Low"
+    },
+    {
+      "id": "3",
+      "name": "Angela Martinez",
+      "age": 65,
+      "gender": "Female",
+      "cancerType": "Leukemia",
+      "stage": "IIB",
+      "treatment": "Doxorubicin Chemotherapy",
+      "hospitalizations": [
+        { "date": "05/27/2024", "reason": "Heart Failure Management" },
+        { "date": "08/01/2024", "reason": "Chest Pain Evaluation" }
+      ],
+      "riskLevel": "Low"
+    },
+    {
+      "id": "4",
+      "name": "James Wilson",
+      "age": 55,
+      "gender": "Male",
+      "cancerType": "Lymphoma",
+      "stage": "IIB",
+      "treatment": "Immunotherapy",
+      "hospitalizations": [
+        { "date": "03/27/2024", "reason": "Chest Pain Evaluation" },
+        { "date": "09/09/2024", "reason": "Cardiotoxicity Symptoms (Dyspnea, Edema)" },
+        { "date": "07/25/2024", "reason": "Echocardiogram (EF drop detected)" },
+        { "date": "05/30/2024", "reason": "Cardiotoxicity Symptoms (Dyspnea, Edema)" },
+        { "date": "07/07/2024", "reason": "Cardiologist Referral for EF Monitoring" }
+      ],
+      "riskLevel": "Moderate"
+    },
+    {
+      "id": "5",
+      "name": "Rachel Green",
+      "age": 45,
+      "gender": "Female",
+      "cancerType": "Breast Cancer",
+      "stage": "IIB",
+      "treatment": "Immunotherapy",
+      "hospitalizations": [
+        { "date": "08/23/2024", "reason": "Echocardiogram (EF drop detected)" },
+        { "date": "05/20/2024", "reason": "Cardiac Biomarker Testing (NT-proBNP)" }
+      ],
+      "riskLevel": "Low"
+    },
+
+        {
+          "id": "6",
+          "name": "David Kim",
+          "age": 39,
+          "gender": "Male",
+          "cancerType": "Lymphoma",
+          "stage": "IIIA",
+          "treatment": "Radiation Therapy",
+          "hospitalizations": [
+            { "date": "09/26/2024", "reason": "Cardiac Biomarker Testing (NT-proBNP)" },
+            { "date": "08/08/2024", "reason": "Cardiologist Referral for EF Monitoring" },
+            { "date": "01/16/2024", "reason": "Chest Pain Evaluation" }
+          ],
+          "riskLevel": "Low"
+        },
+        {
+          "id": "7",
+          "name": "Nancy Smith",
+          "age": 58,
+          "gender": "Female",
+          "cancerType": "Lymphoma",
+          "stage": "IIB",
+          "treatment": "Tyrosine Kinase Inhibitors",
+          "hospitalizations": [
+            { "date": "09/18/2024", "reason": "Arrhythmia Episode" },
+            { "date": "09/10/2024", "reason": "Cardiac Biomarker Testing (NT-proBNP)" }
+          ],
+          "riskLevel": "Low"
+        },
+        {
+          "id": "8",
+          "name": "Robert Lee",
+          "age": 50,
+          "gender": "Male",
+          "cancerType": "Breast Cancer",
+          "stage": "IIA",
+          "treatment": "Doxorubicin Chemotherapy",
+          "hospitalizations": [
+            { "date": "04/16/2024", "reason": "Cardiac Biomarker Testing (NT-proBNP)" },
+            { "date": "10/25/2024", "reason": "Arrhythmia Episode" },
+            { "date": "02/22/2024", "reason": "Echocardiogram (EF drop detected)" }
+          ],
+          "riskLevel": "Low"
+        },
+        {
+          "id": "9",
+          "name": "Maria Garcia",
+          "age": 43,
+          "gender": "Female",
+          "cancerType": "Leukemia",
+          "stage": "IV",
+          "treatment": "Doxorubicin Chemotherapy",
+          "hospitalizations": [
+            { "date": "04/13/2024", "reason": "Cardiotoxicity Symptoms (Dyspnea, Edema)" },
+            { "date": "04/20/2024", "reason": "Chest Pain Evaluation" }
+          ],
+          "riskLevel": "High"
+        },
+        {
+          "id": "10",
+          "name": "Thomas Moore",
+          "age": 61,
+          "gender": "Male",
+          "cancerType": "Lymphoma",
+          "stage": "IIA",
+          "treatment": "Tyrosine Kinase Inhibitors",
+          "hospitalizations": [
+            { "date": "03/10/2024", "reason": "Cardiotoxicity Symptoms (Dyspnea, Edema)" },
+            { "date": "10/22/2024", "reason": "Cardiac Biomarker Testing (NT-proBNP)" }
+          ],
+          "riskLevel": "Low"
+        }
+
+
+
+  ]
+  

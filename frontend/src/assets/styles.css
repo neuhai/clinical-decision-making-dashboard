@@ -1,0 +1,40 @@
+/* src/assets/styles.css */
+:root {
+    --bg-color: #f7f9fc;
+    --primary-color: #3b82f6;
+    --secondary-color: #94a3b8;
+    --highlight-color: #ff7070;
+    --border-color: #e2e8f0;
+    --text-color: #334155;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    margin: 0;
+  }
+  
+  h1, h2, h3 {
+    margin: 0;
+    color: var(--text-color);
+  }
+  
+  .dashboard {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .main-content {
+    flex: 1;
+    padding: 20px;
+    background: white;
+    overflow-y: auto;
+  }
+  
+  .content-row {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  

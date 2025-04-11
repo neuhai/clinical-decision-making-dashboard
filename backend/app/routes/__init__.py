@@ -1,0 +1,1 @@
+from .daily_summary import bp as daily_summary_bp
