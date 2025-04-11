@@ -17,7 +17,7 @@ A web application for tracking symptoms and physiological data.
 Create a `.env` file in the `backend` directory:
 
 ```env
-MONGO_URI=mongodb://localhost:27017/your_database
+MONGO_URI=mongodb:xxx
 OPENAI_API_KEY=your_openai_key_here
 ALEXA_API_KEY=your_alexa_api_key_here
 ```
@@ -27,8 +27,8 @@ ALEXA_API_KEY=your_alexa_api_key_here
 Create a `.env` file in the `frontend` directory:
 
 ```env
-VITE_API_BASE_URL=http://localhost:5002
-VITE_ALEXA_API_KEY=your_alexa_api_key_here
+VITE_API_BASE_URL=xxx
+VITE_ALEXA_API_KEY=xxx
 ```
 
 ## Installation
