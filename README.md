@@ -8,7 +8,6 @@ A web application for tracking symptoms and physiological data.
 - Python 3.8+
 - MongoDB
 - OpenAI API key
-- Alexa Developer Account
 
 ## Environment Setup
 
@@ -19,7 +18,6 @@ Create a `.env` file in the `backend` directory:
 ```env
 MONGO_URI=mongodb:xxx
 OPENAI_API_KEY=your_openai_key_here
-ALEXA_API_KEY=your_alexa_api_key_here
 ```
 
 ### Frontend Configuration
@@ -28,7 +26,6 @@ Create a `.env` file in the `frontend` directory:
 
 ```env
 VITE_API_BASE_URL=xxx
-VITE_ALEXA_API_KEY=xxx
 ```
 
 ## Installation
